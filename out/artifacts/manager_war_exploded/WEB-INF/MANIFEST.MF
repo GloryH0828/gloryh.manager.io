@@ -1,0 +1,76 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.taglibs.standard.tlv;uses:="org.apache.tagl
+ ibs.standard.resources,javax.xml.parsers,javax.servlet.jsp.tagext,org
+ .apache.taglibs.standard.util,org.xml.sax.helpers,org.xml.sax";versio
+ n="1.2",org.apache.taglibs.standard.tag.common.core;uses:="javax.serv
+ let.jsp.tagext,javax.servlet.jsp,org.apache.taglibs.standard.resource
+ s,javax.el,javax.servlet.jsp.jstl.core,javax.servlet,javax.servlet.ht
+ tp,org.apache.taglibs.standard.util";version="1.2",org.apache.taglibs
+ .standard;version="1.2",org.apache.taglibs.standard.tag.common.xml;us
+ es:="org.apache.xml.utils,org.apache.xpath,javax.xml.transform,javax.
+ servlet.jsp.tagext,org.apache.xpath.objects,org.apache.taglibs.standa
+ rd.util,javax.servlet.jsp,org.apache.xml.dtm,javax.servlet.jsp.jstl.c
+ ore,org.w3c.dom,javax.servlet,org.apache.taglibs.standard.resources,j
+ avax.servlet.http,org.apache.taglibs.standard.tag.common.core,javax.x
+ ml.parsers,javax.xml.transform.dom,org.xml.sax,javax.xml.transform.sa
+ x,javax.xml.transform.stream";version="1.2",org.apache.taglibs.standa
+ rd.tei;uses:="javax.servlet.jsp.tagext";version="1.2",org.apache.tagl
+ ibs.standard.tag.common.sql;uses:="javax.naming,javax.sql,javax.servl
+ et.jsp.jstl.core,org.apache.taglibs.standard.resources,javax.servlet.
+ jsp,javax.servlet.jsp.tagext,javax.servlet.jsp.jstl.sql,org.apache.ta
+ glibs.standard.tag.common.core";version="1.2",org.apache.taglibs.stan
+ dard.functions;uses:="org.apache.taglibs.standard.resources,org.apach
+ e.taglibs.standard.util,javax.servlet.jsp";version="1.2",org.apache.t
+ aglibs.standard.resources;version="1.2",org.apache.taglibs.standard.t
+ ag.rt.xml;uses:="org.apache.taglibs.standard.tag.common.xml,javax.ser
+ vlet.jsp,org.xml.sax,javax.xml.transform";version="1.2",org.apache.ta
+ glibs.standard.tag.common.fmt;uses:="org.apache.taglibs.standard.tag.
+ common.core,javax.servlet,javax.servlet.jsp.jstl.fmt,javax.servlet.js
+ p.jstl.core,javax.servlet.jsp.tagext,javax.servlet.jsp,javax.servlet.
+ http,org.apache.taglibs.standard.resources";version="1.2",org.apache.
+ taglibs.standard.tag.rt.fmt;uses:="org.apache.taglibs.standard.tag.co
+ mmon.fmt,javax.servlet.jsp,javax.servlet.jsp.jstl.fmt";version="1.2",
+ org.apache.taglibs.standard.tag.rt.sql;uses:="org.apache.taglibs.stan
+ dard.tag.common.sql,javax.servlet.jsp";version="1.2",org.apache.tagli
+ bs.standard.tag.rt.core;uses:="org.apache.taglibs.standard.tag.common
+ .core,javax.servlet.jsp.jstl.core,javax.servlet.jsp.tagext,javax.serv
+ let.jsp";version="1.2",org.apache.taglibs.standard.util;uses:="javax.
+ servlet.jsp,javax.servlet,javax.el,javax.xml.parsers,javax.xml.transf
+ orm,javax.xml.transform.sax,org.apache.taglibs.standard.resources,org
+ .xml.sax,javax.servlet.http,javax.xml.transform.stream,org.w3c.dom";v
+ ersion="1.2"
+Implementation-Title: Apache Standard Taglib Implementation
+Implementation-Version: 1.2.5
+Built-By: jeremy
+Tool: Bnd-0.0.357
+Bundle-Name: Apache Standard Taglib Implementation
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Apache Software Foundation
+Build-Jdk: 1.6.0_65
+Bundle-Version: 1.2.5
+Bnd-LastModified: 1426003889688
+Bundle-ManifestVersion: 2
+Bundle-Description: An implementation of the JSP Standard Tag Library 
+ (JSTL).
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://tomcat.apache.org/taglibs/standard-1.2.5/taglibs
+ -standard-impl
+Bundle-SymbolicName: org.apache.taglibs.standard-impl
+Import-Package: javax.el,javax.naming,javax.servlet,javax.servlet.http
+ ,javax.servlet.jsp,javax.servlet.jsp.jstl.core,javax.servlet.jsp.jstl
+ .fmt,javax.servlet.jsp.jstl.sql,javax.servlet.jsp.tagext,javax.sql,ja
+ vax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,javax.xml
+ .transform.sax,javax.xml.transform.stream,org.apache.taglibs.standard
+ ;version="1.2",org.apache.taglibs.standard.functions;version="1.2",or
+ g.apache.taglibs.standard.resources;version="1.2",org.apache.taglibs.
+ standard.tag.common.core;version="1.2",org.apache.taglibs.standard.ta
+ g.common.fmt;version="1.2",org.apache.taglibs.standard.tag.common.sql
+ ;version="1.2",org.apache.taglibs.standard.tag.common.xml;version="1.
+ 2",org.apache.taglibs.standard.tag.rt.core;version="1.2",org.apache.t
+ aglibs.standard.tag.rt.fmt;version="1.2",org.apache.taglibs.standard.
+ tag.rt.sql;version="1.2",org.apache.taglibs.standard.tag.rt.xml;versi
+ on="1.2",org.apache.taglibs.standard.tei;version="1.2",org.apache.tag
+ libs.standard.tlv;version="1.2",org.apache.taglibs.standard.util;vers
+ ion="1.2",org.apache.xml.dtm,org.apache.xml.utils,org.apache.xpath,or
+ g.apache.xpath.objects,org.w3c.dom,org.xml.sax,org.xml.sax.helpers
+
