@@ -55,7 +55,7 @@ public class FixLogServlet extends HttpServlet {
 
     private void checkSubmit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id= Integer.valueOf(request.getParameter("id"));
-        Fixlog fixlog=storageService.findFixLogByID(id);
+        Fixlog fixlog=storageService.findFixLogByID2(id);
         String reason =request.getParameter("reason");
         String bonus1 =request.getParameter("bonus");
         String cost1 =request.getParameter("cost");
@@ -99,7 +99,7 @@ public class FixLogServlet extends HttpServlet {
 
     private void updateFixLog(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id= Integer.valueOf(request.getParameter("id"));
-        Fixlog fixlog=storageService.findFixLogByID(id);
+        Fixlog fixlog=storageService.findFixLogByID2(id);
         request.setAttribute("fixlog",fixlog);
         request.getRequestDispatcher("/updateFixLog.jsp").forward(request, response);
     }
